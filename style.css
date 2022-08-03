@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white; 
+    font-family: arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerDiv {  
+    padding: 5px;
+    display: flex;
+    background-color: rgb(14, 101, 112);
+    
+  }
+
+.clogo {
+    
+    width: 10vmax;
+    height: 10vmax;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+.htitle {
+  
+  margin-top: 1%;
+  font-size: 90%;
+}
+
+.menu {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(14, 101, 112);
+}
+
+.button {
+  border-radius: 8px;
+  cursor: pointer;
+  width: auto;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 1%;
+  margin-top: 2px;
+  margin-right: 1%;
+  font-size: auto;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: green;
+  color: white;   
+}
+
+.pdiv {
+  box-sizing: border-box;
+}
+
+.left, .right {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  height: 150vh;
+  background-color: rgb(14, 101, 112);
+}
+
+.center {
+  float: left;
+  width: 40%;
+  box-sizing: border-box;
+}
